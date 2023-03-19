@@ -1,0 +1,90 @@
+body {
+  background-image: url("radial-gradiant.png");
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.center {
+  position: absolute;
+  top: calc(50% - 60px);
+  left: calc(50% - 30px);
+  width: 70px;
+  height: 70px;
+  border-radius: 60%;
+  background-color: #fff;
+  box-shadow:
+    0 0 60px 50px #fff,
+    0 0 100px 75px #f0f,
+    0 0 140px 90px #0ff;
+}
+
+
+/*FONT*/
+
+.container {
+  font-family: Gill Sans, sans-serif;
+
+
+  width: 50%;
+  letter-spacing: 3px;
+
+  margin: auto;
+  transform: translate(0, 600px);
+}
+
+.top-line {
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #df94d2;
+
+  text-align: center;
+  font-size: 1.4em;
+
+}
+
+.bottom-line {
+  font-size: 1.6em;
+  text-align: center;
+  padding: 20px;
+
+}
+
+#one {
+  float: left;
+  display: inline;
+
+  color: #f0fcff;
+  text-shadow: 2px 2px 5px #df94d2;
+
+  -webkit-opacity: 0.4;
+  cursor: pointer;
+  -webkit-transition: 0.25s all ease-in-out;
+}
+
+#one:hover {
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #ff008f;
+
+  -webkit-opacity: 1;
+}
+
+
+#two {
+  float: right;
+  display: inline;
+
+  color: #f0fcff;
+  text-shadow: 3px 3px 5px #df94d2;
+
+  -webkit-opacity: 0.4;
+  cursor: pointer;
+  -webkit-transition: 0.25s all ease-in-out;
+}
+
+#two:hover {
+  color: #ffffff;
+  text-shadow: 3px 3px 6px #ff008f;
+
+  -webkit-opacity: 1;
+}
+
+
