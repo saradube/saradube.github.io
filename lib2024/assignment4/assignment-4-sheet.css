@@ -1,0 +1,41 @@
+
+body {
+	background: linear-gradient(315deg, hsla(220, 100%, 93%, 1) 0%, hsla(211, 36%, 23%, 1) 84%);
+	background: -webkit-linear-gradient(315deg, hsla(220, 100%, 93%, 1) 0%, hsla(211, 36%, 23%, 1) 84%);
+
+	background-position: center;
+	background-attachment: fixed;
+}
+
+button {
+	background-color: rgb(89, 97, 139);
+	border: none;
+
+	color: whitesmoke;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+
+	font-size: 17px;
+	letter-spacing: 3px;
+	font-family: Trebuchet MS, sans-serif;
+}
+
+.converter {
+	font-family: Trebuchet MS, sans-serif;
+	color: whitesmoke;
+	text-shadow: 2px 2px 3px rgb(89, 97, 139);
+
+	font-size: 20px;
+	letter-spacing: 5px;
+	padding: 20px;
+}
+
+.image {
+	float: left;
+
+	transform: translate(40px, -300px)
+}
+
+
